@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+}
+
+.background {
+  background-color: #1a1f2c;
+  text-align: center;
+}
+
+.Image {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Introduction {
+  text-align: center;
+  margin: 2%;
+}
+
+.name {
+  color: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+}
+
+.sub-heading {
+  color: #fd6a6a;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin: -3%;
+}
+
+.Summary {
+  margin-top: 7%;
+}
+
+.headings {
+  color: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+.paragraph {
+  color: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.list {
+  color: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+}
