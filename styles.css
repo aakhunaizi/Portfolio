@@ -6,16 +6,20 @@
 .background {
   background-color: #1a1f2c;
   text-align: center;
+  overflow-x: hidden;
 }
 
-.Image {
+.image {
   height: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid;
+  border-radius: 50%;
+  border-color: #fd6a6a;
 }
 
-.Introduction {
+.introduction {
   text-align: center;
   margin: 2%;
 }
@@ -25,16 +29,15 @@
   font-family: "Roboto", sans-serif;
   font-size: 70px;
 }
-
 .sub-heading {
   color: #fd6a6a;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  margin: -3%;
+  font-size: 20px;
+  margin: 0.5%;
 }
 
-.Summary {
-  margin-top: 7%;
+.summary {
+  margin-top: 0%;
 }
 
 .headings {
@@ -48,6 +51,7 @@
   color: #e0e0e0;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  margin-top: 2%;
 }
 
 .list {
@@ -55,4 +59,29 @@
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   list-style-type: none;
+  margin-top: 2%;
+}
+
+.sublist {
+  color: #fd6a6a;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.list-item {
+  margin: 1%;
+}
+
+footer {
+  background-color: #fd6a6a;
+}
+
+.date-color {
+  font-weight: normal;
+  color: #fd6a6a;
+}
+
+.btn-toolbar {
+  display: inline;
+  flex-wrap: nowrap;
 }
